@@ -1,0 +1,71 @@
+
+
+
+.container-fluid {
+    background-color: #635e5e;      
+    padding: 0;
+    margin: 0;
+    display:flex;
+    color: white;
+    flex-flow: row wrap; 
+    justify-content: space-between;  
+    align-items: center;    
+}
+
+.logo  {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+.contacto {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.contacto a img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 575px) {
+.container-fluid {
+    flex-direction: column;
+    height: 400px;
+}
+.logo {
+    width: 250px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contacto {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 10px;
+}
+}
+
+button {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: 70px;
+}
+
+
+
+
+

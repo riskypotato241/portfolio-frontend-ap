@@ -1,0 +1,33 @@
+<div class="row">
+<nav class="navbar-static-top navbar-light bg-light">
+
+<div class="container-fluid">
+  <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
+  <div class="logo">
+    <img
+      src="https://desa.argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1660276176/APLogo-20-20.png"
+      alt="AP logo"
+    />
+    <img
+      src="https://argentinaprograma.inti.gob.ar/theme/moove/pix/LogosInti.png"
+      alt="Logo INTI"
+    />
+  </div> 
+</a>
+  <div class="contacto">
+    <a href="https://github.com/riskypotato241">
+    <img
+      src="https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png"
+      alt="logo GITHUB"/>  </a>
+      <a href="mailto:maximocaceres2005@gmail.com">
+    <img  
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
+      alt="Gmail">  </a>
+    <button type="button" class="btn btn-dark" (click)="login()" *ngIf="!isLogged">Login</button> 
+    <button type="button" class="btn btn-dark" (click)="onLogOut()"  *ngIf="isLogged">Log out</button> 
+    
+  </div>
+</div>
+
+</nav>
+</div>

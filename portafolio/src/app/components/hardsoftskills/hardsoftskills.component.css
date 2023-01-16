@@ -1,0 +1,17 @@
+    .container-fluid{
+        margin: 0;
+        padding: 40px;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-flow: column wrap;
+        
+     
+    }
+
+    .circle{
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+        flex-flow: row wrap;
+    }

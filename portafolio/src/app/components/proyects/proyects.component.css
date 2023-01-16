@@ -1,0 +1,27 @@
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column wrap;
+    margin: 0;
+    padding: 0;
+    background-color: #001133;
+    color: white;
+}
+
+.proyect-section {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 54px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 250px;
+    padding: 20px;
+    background-color: black;
+    color:white;
+}
+
